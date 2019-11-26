@@ -11,7 +11,7 @@ module Up_Down_Counter(
 			  2'b00 :y=x;
 			  2'b01 :y=(y+1)%16;
 			  2'b10 :y=(y-1)%16;
-     		  2'b11 :y=y;
+     		          2'b11 :y=y;
 			endcase
 		end
 	
